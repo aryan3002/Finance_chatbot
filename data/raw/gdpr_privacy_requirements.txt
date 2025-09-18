@@ -1,0 +1,162 @@
+GENERAL DATA PROTECTION REGULATION (GDPR) COMPLIANCE GUIDE
+Applicable to all organizations processing EU personal data
+
+CHAPTER 1: LAWFUL BASIS FOR PROCESSING
+
+Article 6 - Lawfulness of Processing
+Personal data processing is lawful only if one of the following applies:
+a) Data subject has given explicit consent
+b) Processing necessary for contract performance
+c) Processing necessary for legal obligation compliance
+d) Processing necessary to protect vital interests
+e) Processing necessary for public interest task
+f) Processing necessary for legitimate interests
+
+Consent Requirements:
+- Must be freely given, specific, informed, and unambiguous
+- Withdrawal must be as easy as giving consent
+- Records of consent must be maintained for 3 years after relationship ends
+
+CHAPTER 2: DATA SUBJECT RIGHTS
+
+Article 15 - Right of Access
+Data subjects can request copy of their personal data within 30 days of request. Organizations must provide:
+- Categories of personal data processed
+- Processing purposes
+- Recipients of data
+- Retention periods
+- Source of data if not collected directly
+
+Article 17 - Right to Erasure
+Personal data must be erased without undue delay when:
+- Data no longer necessary for original purpose
+- Consent withdrawn
+- Data unlawfully processed
+- Erasure required by law
+
+Response required within 30 days, extension to 60 days for complex requests.
+
+Article 20 - Data Portability
+Provide personal data in structured, commonly used, machine-readable format within 30 days when technically feasible.
+
+CHAPTER 3: DATA PROTECTION BY DESIGN
+
+Article 25 - Technical Measures
+Implement appropriate technical and organizational measures:
+- Pseudonymization and encryption of personal data
+- Ability to ensure ongoing confidentiality
+- Regular testing of security measures
+- Data minimization principles
+
+Privacy Impact Assessments required for:
+- Systematic monitoring of public areas
+- Large-scale processing of special categories
+- Automated decision-making with legal effects
+
+CHAPTER 4: DATA BREACH NOTIFICATION
+
+Article 33 - Notification to Authority
+Notify supervisory authority within 72 hours of breach awareness unless unlikely to result in risk. Notification must include:
+- Nature of breach and approximate number of affected individuals
+- Contact details of Data Protection Officer
+- Likely consequences
+- Mitigation measures taken
+
+Article 34 - Communication to Data Subject
+If high risk to rights and freedoms, notify affected individuals without undue delay. Use clear, plain language describing:
+- Nature of breach
+- Recommendations for mitigation
+- Support contact information
+
+CHAPTER 5: INTERNATIONAL TRANSFERS
+
+Article 44 - Transfer Restrictions
+Personal data transfers outside EU only permitted with:
+- Adequacy decision by Commission
+- Appropriate safeguards (Standard Contractual Clauses)
+- Binding Corporate Rules for intra-group transfers
+- Explicit consent after information about risks
+
+Transfer records must be maintained for 5 years including:
+- Date and time of transfer
+- Receiving organization identity
+- Legal basis for transfer
+- Description of data categories
+
+CHAPTER 6: DATA PROTECTION OFFICER
+
+Article 37 - Designation Requirements
+DPO mandatory for organizations that:
+- Process data as core activity requiring regular monitoring
+- Process special categories of data on large scale
+- Are public authorities
+
+DPO must:
+- Report directly to highest management level
+- Not receive instructions regarding tasks
+- Not be dismissed for performing duties
+- Have expert knowledge of data protection law
+
+CHAPTER 7: RECORDS OF PROCESSING
+
+Article 30 - Documentation Requirements
+Maintain records of all processing activities containing:
+- Organization contact details
+- Processing purposes
+- Data subject categories
+- Data categories
+- Recipients
+- International transfers
+- Retention periods
+- Security measures description
+
+Records must be available to supervisory authority upon request within 48 hours.
+
+CHAPTER 8: SPECIAL CATEGORIES OF DATA
+
+Article 9 - Health, Biometric, and Sensitive Data
+Processing prohibited except when:
+- Explicit consent given for specific purposes
+- Necessary for employment/social security law
+- Necessary to protect vital interests
+- Processing by health professionals
+
+Additional safeguards required:
+- Enhanced encryption
+- Access on strict need-to-know basis
+- Audit logs retained for 7 years
+- Annual security assessments
+
+CHAPTER 9: CHILDREN'S DATA
+
+Article 8 - Age of Consent
+- Parental consent required for children under 16
+- Member states may lower to 13 minimum
+- Reasonable efforts to verify parental consent
+- Age-appropriate privacy notices required
+
+Special protection measures:
+- No profiling for marketing
+- Right to erasure particularly important
+- Privacy by default strictest settings
+
+CHAPTER 10: PENALTIES
+
+Article 83 - Administrative Fines
+Lower tier (up to €10 million or 2% global turnover):
+- Failure to maintain records
+- Failure to cooperate with authority
+- Failure to conduct impact assessment
+
+Higher tier (up to €20 million or 4% global turnover):
+- Breach of basic processing principles
+- Breach of data subject rights
+- Unauthorized international transfers
+- Non-compliance with authority order
+
+Factors for determining fines:
+- Nature, gravity, and duration
+- Intentional or negligent character
+- Mitigation actions taken
+- Previous infringements
+- Cooperation with authority

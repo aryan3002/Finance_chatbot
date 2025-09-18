@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<TITLE>EDGAR Login</TITLE>
+
+<SCRIPT TYPE="text/javascript" LANGUAGE=JavaScript>
+	var CIK_LEN = 10;
+
+	////////////////////////////////////////////////////////////////////////////////////
+	// Function name:  browserWindowNotify()
+	// Description  :  Notifies the user that a separate browser window will be opened
+	// Parameters   :  none
+	////////////////////////////////////////////////////////////////////////////////////
+	function browserWindowNotify() 
+	{
+		alert("A separate browser window will be opened to perform this function.");
+	}
+	////////////////////////////////////////////////////////////////////////////////////
+	// Function name:  leftPad
+	// Description  :  Left pads the specified string with the specified character
+	// Parameters   :  strToPad - string value to pad
+	//                 padCharStr - char value to pad with
+	//                 strLen - desired length of string, including pad chars
+	////////////////////////////////////////////////////////////////////////////////////
+	function leftPad(strToPad, padCharStr, strLen) 
+	{
+		var padStr = "";
+		if (strToPad.length < strLen) {
+			padLen = strLen - strToPad.length;
+			for (i = 0; i < padLen; i++) {
+				padStr = padStr + padCharStr;
+			}
+			padStr = padStr + strToPad;
+		} else {
+			padStr = strToPad;
+		}
+		return (padStr);
+	}
+	////////////////////////////////////////////////////////////////////////////////////
+	// Function name:  saveURL(form)
+	// Description  :  save the current base URL to a hidden type called clientURL, also
+	//                 left-pad the login CIK with zeros
+	//                 used by EDGARLogin.htm file
+	// Parameters   :  none
+	////////////////////////////////////////////////////////////////////////////////////
+	function saveURL(form) 
+	{
+		// e.g., location.protocol = "https:", location.host = "www.edgarfiling.sec.gov"
+		form.clientURL.value = location.protocol + "//" + location.host + "/";
+		leftPadCIK();
+	}
+	////////////////////////////////////////////////////////////////////////////////////
+	// Function name:  clear
+	// Description  :  initialize the logon password
+	// Parameters   :  none
+	////////////////////////////////////////////////////////////////////////////////////
+	function clear() 
+	{
+		document.login.Password.value = "";
+	}
+	////////////////////////////////////////////////////////////////////////////////////
+	// Function name:  leftPadCIK
+	// Description  :  left-pad the CIK with 0's
+	// Parameters   :  none
+	////////////////////////////////////////////////////////////////////////////////////
+	function leftPadCIK() 
+	{
+		document.login.CIK.value = leftPad(document.login.CIK.value, "0",
+				CIK_LEN);
+	}
+</SCRIPT>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
+</HEAD>
+
+<BODY onUnload='clear();' BACKGROUND="../Images/gryspng1.gif">
+
+<!-- SEC Web Analytics - For information please visit: http://www.sec.gov/privacy.htm#collectedinfo -->
+<noscript><iframe
+	src="https://www.googletagmanager.com/ns.html?id=GTM-TD3BKV" height="0"
+	width="0" style="display: none; visibility: hidden"></iframe></noscript>
+<script>
+if (location.host=='www.filermanagement.edgarfiling.sec.gov' ||
+		location.host=='www.portal.edgarfiling.sec.gov' ||
+		location.host=='www.onlineforms.edgarfiling.sec.gov' ||
+		location.host=='www.edgarfiling.sec.gov'){
+		(function(w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push( {
+			'gtm.start' : new Date().getTime(),
+			event : 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l
+				: '';
+		j.async = true;
+		j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-TD3BKV');
+	}
+</script>
+<!-- End SEC Web Analytics -->
+<span id="banner">
+<TABLE WIDTH="100%" style="background-color:#C31632;border:1px #C31632 solid;">
+    <TR bgcolor="#C31632"><TH ALIGN="CENTER">
+        <FONT Face="Source Sans Pro" color="white" SIZE="3" ><strong>
+          <div id="bannerTop"></div>
+        </strong></FONT>
+	</TH></TR>
+    <TR bgcolor="#f0e6e8"><TD ALIGN="LEFT" style="padding-left:7px;padding-right:4px">
+        <FONT Face="Source Sans Pro"  color="#000000" SIZE="3">
+          <div id="bannerText"></div>
+        </FONT>
+	</TD></TR>
+</TABLE>
+</span>
+
+<FORM name=login METHOD="POST" ACTION="/servlet/auth">
+
+<IMG ALT="SEC Seal" SRC="../Images/dseal2.gif" ALIGN="LEFT"> <IMG
+	ALT="SEC Logo" SRC="../Images/logo4b1.gif" ALIGN="RIGHT" WIDTH="70"
+	border="0">
+<div tabindex=0><P ALIGN="CENTER"><B> <FONT Face="Source Sans Pro " SIZE="4">U.S. Securities and
+Exchange Commission</FONT><BR>
+<FONT Face="Source Sans Pro " SIZE="5">Electronic Data Gathering, Analysis, and Retrieval</FONT><BR>
+<FONT Face="Source Sans Pro " SIZE="5">(EDGAR)</FONT>
+<FONT Face="Source Sans Pro"  SIZE="3" COLOR="#FF0000"><strong><div id="bannerText1" ALIGN="CENTER" style="font-family:Source Sans Pro; color: #FF0000; font-size: 16px; font-weight: bold;"></div></strong></FONT>
+</B></P></div>
+
+<HR ALIGN="CENTER" SIZE="3" COLOR="#B8860B">
+
+<BLOCKQUOTE>
+<P>
+<TABLE  style="border: 1px solid grey;" ALIGN="CENTER" role="presentation" >
+	<TR>
+	<TD COLSPAN="1" ALIGN="CENTER">
+	<TABLE BORDER="0" role="presentation">
+		<TR>
+			<TD COLSPAN="1" ALIGN="CENTER"><I><FONT Face="Source Sans Pro " SIZE="3" COLOR="#FF0000"> <B><div tabindex=0>WARNING!</div></B></FONT></I></TD>
+		</TR>
+		<TR>
+			<TD COLSPAN="1"><FONT Face="Source Sans Pro " SIZE="3"><div><div tabindex=0 style="display:inline;">This computer
+			system is Federal property and is to be used only for authorized
+			government purposes by users who have been granted access rights by
+			the Office of Information Technology. Misuse of this computer system
+			is a violation of Federal law (Pub. L.99-474). All users of this
+			system, whether authorized or unauthorized, are subject to monitoring
+			by the Office of Information Technology and by law enforcement
+			officials. Such monitoring may be used by law enforcement officials
+			as necessary in the course of any official investigation. Users are
+			reminded that there is no expectation of privacy when using network
+			resources. Anyone using SEC network resources expressly consents to
+			such monitoring. Evidence of criminal activity or other misconduct
+			may be provided to law enforcement and Commission officials. </div><div tabindex=0 style="display:inline;">
+			Electronic messages, whether authorized or unauthorized, constitute
+			consent to the retrieval and disclosure of information stored within
+			the system, including information stored locally on the hard drive or other
+			media in use with this unit (e.g., floppy disks, personal
+			digital assistants and other hand-held peripherals, and CD-ROMs).</div></div></FONT></TD>
+		</TR>
+	</TABLE>
+	</TD>
+	</TR>
+</TABLE>
+<BR><BR>
+<TABLE BORDER="0" ALIGN="CENTER" WIDTH="75%" role="presentation">
+	<TR>
+		<TD COLSPAN="2" ALIGN="CENTER">
+			<TABLE  style="width: auto; height: auto; border: 1px solid grey;" ALIGN="CENTER" role="presentation" >
+			<TR>
+	  	    <TD COLSPAN="1" ALIGN="LEFT"><div tabindex=0><I><FONT Face="Source Sans Pro " SIZE="4"
+					COLOR="#FF0000"> Notice: </FONT> <FONT Face="Source Sans Pro ">If you are an ownership form filer
+				(specifically filing form types <B>3, 3/A, 4, 4/A, 5, 5/A, 144, 144/A, Schedule 13D, Schedule 13D/A, Schedule 13G or Schedule 13G/A</B>), please
+				login to the <A HREF="/Welcome/EDGAROnlineFormsLogin.htm" target="_blank"
+					OnClick=browserWindowNotify();>OnlineForms website</A>. All other non-ownership filers, please continue to
+				use the login below.</FONT></I></div></TD>
+			</TR>
+		</TABLE>
+			<BR><BR>
+			<table border="0" align="CENTER" style="width: auto; height: auto;
+padding: 15px 40px 15px 40px; border-left: 5px solid #fddc0f; background-color: #fdf7dc; box-sizing: border-box;
+font-family: sans-serif; color: #333333; text-align: center; line-height: normal;">
+				<tbody><tr bgcolor="#fdf7dc"><td colspan="1" align="LEFT"><font face="Source Sans Pro " size="3" color="#333333">
+						<FONT Face="Source Sans Pro " ALIGN="LEFT"><b>Compliance with EDGAR Next is Now Required</b></FONT>
+						<BR><BR>
+						<FONT Face="Source Sans Pro " ALIGN="LEFT"><b>As of Monday, September 15, 2025, access to the EDGAR filing websites - EDGAR Online Forms, EDGAR Filing and EDGAR Filer Management - requires Login.gov credentials, completion of multifactor authentication, and compliance with all EDGAR Next changes.</b></FONT>
+						<BR><BR>
+						Filers may continue to enroll through December 19, 2025, however, unenrolled filers will not be able to file until they enroll. Note that filers that submit a Form ID that is granted on or after March 24, 2025 do not need to enroll and will be considered in compliance with EDGAR Next.
+						<BR><BR>
+						To enroll, an authorized representative of the filer must log into the EDGAR Filer Management dashboard with Login.gov credentials and enter a valid CIK, CCC, passphrase, and information about authorized account administrators. If the filer has not reset its CCC and/or passphrase since September 2019, the filer should reset these codes prior to enrolling. See How Do I 
+						<a style="font-family: sans-serif; font-weight: 400; font-style: normal; color: rgb(0, 0, 238);" href="https://www.sec.gov/submit-filings/filer-support-resources/how-do-i-guides/enroll-edgar-next" target="_blank">Enroll in EDGAR Next</a>
+						and How Do I 
+						<a style="font-family: sans-serif; font-weight: 400; font-style: normal; color: rgb(0, 0, 238);" href="https://www.sec.gov/submit-filings/filer-support-resources/how-do-i-guides/update-passphrase-ccc" target="_blank">Update the Passphrase and CCC to Enroll (and Avoid the need to Submit Form ID)</a>.
+					</FONT><BR>
+				</font>
+					</font></td></tr>
+				</tbody>
+			</table>
+			<BR><BR>
+			<table border="0" align="CENTER" style="width: auto; height: auto;
+				padding: 15px 40px 15px 40px; border-left: 5px solid #fddc0f; background-color: #fdf7dc; box-sizing: border-box;
+				font-family: sans-serif; color: #333333; text-align: center; line-height: normal;">
+				<tbody><tr bgcolor="#fdf7dc"><td colspan="1" align="LEFT"><font face="Source Sans Pro " size="3" color="#333333">
+					<B><FONT Face="Source Sans Pro " SIZE="3" ALIGN="LEFT">
+						New Filing Fee Fedwire Payment Format in EDGAR Now Available
+					</FONT><BR></B>
+					<br>
+					<FONT Face="Source Sans Pro " SIZE="3" ALIGN="LEFT">
+						A new filing fee Fedwire payment format is now available in EDGAR. The Federal Reserve Bank Fedwire Funds service has transitioned to the ISO 20022 message format as of July 14, 2025. The old Fedwire Application Interface Manual (FAIM) format was retired as of close of business on July 11, 2025. The Fedwire payment instructions for filing fee registrants found on the <a style="font-family: sans-serif; font-weight: 400; font-style: normal; color: rgb(0, 0, 238);" href="https://www.sec.gov/about/payment-options" target="_blank">SEC.gov | Payment Options</a> page have been updated with the implementation of the new format.
+					</FONT><BR><BR>
+					For more information, please visit
+					<a style="font-family: sans-serif; font-weight: 400; font-style: normal; color: rgb(0, 0, 238);" href="https://www.frbservices.org/resources/financial-services/wires/iso-20022-implementation-center" target="_blank">Fedwire Funds Service ISO 20022 Implementation Center | Federal Reserve Financial Services</a>
+				</font>
+					</font></td></tr>
+				</tbody>
+			</table>
+			<BR><BR>		
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN="2" ALIGN="CENTER"><FONT Face="Source Sans Pro " SIZE="5"><BR>
+		<div tabindex=0>Filer Login</div></FONT></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN="2"></TD>
+	</TR>
+    <TR>
+		<TD COLSPAN="2" Align="CENTER"><BR>
+            <div tabindex=0><FONT Face="Source Sans Pro ">
+                You may access this website from <B>6:00AM to 10:00PM Eastern Time Monday through Friday</B> (except for <A
+                HREF="http://www.sec.gov/info/edgar/fedholiday.htm" target="_blank"
+                OnClick=browserWindowNotify();>federal holidays</A>).</FONT></div>
+        </TD>
+    </TR>
+	<TR ALIGN="CENTER">
+		<TD class="dataCell" ><BR>
+			<FONT Face="Source Sans Pro">
+				<input type="SUBMIT" name="loginEdgarfiling" class="button" value="Login with Login.gov" onclick="document.forms[0].submit();">
+				<input TYPE="hidden" NAME="handler" VALUE="writepage">
+			</FONT>
+		</TD>
+	</TR>
+
+</TABLE>
+
+</BLOCKQUOTE>
+
+<P><div tabindex=0 ALIGN="CENTER"><FONT Face="Source Sans Pro "><B>EDGAR</B><SUP>&reg;</SUP> and <B>EDGARLink</B><SUP>&reg;</SUP>
+are registered trademarks of the U.S. Securities and Exchange
+Commission. All other brand product names mentioned in this software are
+trademarks or registered trademarks of their respective holders.</FONT></div> 
+</P>
+<TABLE style="border: 1px solid grey;" ALIGN="CENTER" role="presentation">
+	<TR>
+		<TD COLSPAN="1" ALIGN="CENTER"><div tabindex=0><I><FONT Face="Source Sans Pro " SIZE="2"> Browser Recommendations: </FONT><FONT Face="Source Sans Pro " SIZE="2">While EDGAR supports most browsers, we 
+			recommend using vendor supported versions of Microsoft Edge and Google Chrome.</FONT></I></div></TD>
+	</TR>
+</TABLE>
+
+</FORM>
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+	function insertHTML(id, html) {
+	    var el = document.getElementById(id);
+	    el.innerHTML = html;
+	}
+
+	<!-- disable online forms URL in Beta -->
+	const urlParams = new URLSearchParams(window.location.search);
+	const isBeta = urlParams.get('isBeta');
+    if (isBeta === "YES"){
+        var bannerTop = "";
+        var bannerText = "";
+        bannerTop = "EDGAR Beta/Test Environment";
+        bannerText ="You are accessing the EDGAR Beta/Test environment. The information contained in EDGAR Beta/Test is unofficial and is provided to the filing community as a courtesy. This information should not be relied upon for any purpose other than testing. <strong>Submissions on EDGAR Beta/Test do not constitute an official filing and do not meet any filer obligations under the securities laws.</strong> Personally Identifiable Information (PII) or information that filers may wish to keep confidential should not be submitted. Testers are strongly encouraged to create and submit fictional data on EDGAR Beta/Test. Please see the <a href= https://www.sec.gov/files/edgar-next-filer-testing-guidance.pdf target='_blank'>EDGAR Next Filer Testing Guidance</a> for more information."
+		bannerText1 ="EDGAR Next Proposing Beta depicts draft content and processes for test purposes only. The SEC has not approved, may approve or disapprove, and may revise any of the content.";
+       	insertHTML('bannerTop', bannerTop);
+       	insertHTML('bannerText', bannerText);
+		insertHTML('bannerText1', bannerText1);
+    } else {
+    	insertHTML('banner', '')
+    }
+</SCRIPT>
+
+</BODY>
+</HTML>

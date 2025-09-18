@@ -1,0 +1,162 @@
+PAYMENT CARD INDUSTRY DATA SECURITY STANDARD (PCI DSS)
+Version 4.0 Requirements Summary
+
+REQUIREMENT 1: NETWORK SECURITY CONTROLS
+
+1.1 Firewall Configuration
+All systems processing cardholder data must be protected by properly configured firewalls. Configuration standards must be reviewed quarterly and updated within 30 days of any significant change.
+
+1.2 Network Segmentation
+Cardholder data environment (CDE) must be segmented from other networks. Penetration testing to verify segmentation effectiveness must be conducted annually.
+
+REQUIREMENT 2: DEFAULT SECURITY PARAMETERS
+
+2.1 Default Passwords
+All vendor-supplied defaults must be changed before system installation. This includes:
+- Default passwords
+- Default SNMP community strings
+- Default security parameters
+
+2.2 Configuration Standards
+Maintain inventory of all system components within 7 days of deployment. Configuration standards must address all known security vulnerabilities.
+
+REQUIREMENT 3: CARDHOLDER DATA PROTECTION
+
+3.1 Data Retention Policy
+Cardholder data storage must be minimized. Implement data retention policies that:
+- Define specific retention requirements
+- Require quarterly review of stored data
+- Mandate secure deletion after retention period
+
+3.2 Data Encryption
+Primary Account Numbers (PAN) must be encrypted using AES-256 or equivalent. Encryption keys must be rotated annually or immediately if compromise is suspected.
+
+3.3 Prohibited Storage
+The following data must never be stored after authorization:
+- Full magnetic stripe data
+- Card verification codes (CVV2/CVC2/CAV2/CID)
+- PIN or PIN block data
+
+REQUIREMENT 4: TRANSMISSION ENCRYPTION
+
+4.1 Secure Transmission
+Cardholder data must be encrypted during transmission over public networks using:
+- TLS 1.2 or higher
+- IPSec VPN
+- SSH version 2 or higher
+
+4.2 End-User Messaging
+Never send unencrypted PANs via end-user messaging (email, SMS, instant messaging). Violations subject to immediate termination and fines up to $500,000.
+
+REQUIREMENT 5: MALWARE PROTECTION
+
+5.1 Anti-Virus Deployment
+Deploy anti-virus on all systems commonly affected by malware. Anti-virus must:
+- Perform automatic updates daily
+- Generate audit logs retained for 12 months
+- Conduct periodic scans at least weekly
+
+REQUIREMENT 6: SECURITY MAINTENANCE
+
+6.1 Patch Management
+Critical security patches must be installed within 30 days of release. All other patches within 90 days. Maintain patch inventory updated monthly.
+
+6.2 Change Control
+All changes to CDE must follow formal change control procedures including:
+- Impact analysis
+- Documented approval
+- Functionality testing
+- Back-out procedures
+
+REQUIREMENT 7: ACCESS RESTRICTION
+
+7.1 Need-to-Know Basis
+Access to cardholder data restricted to personnel with legitimate business need. Access rights reviewed quarterly and revoked within 24 hours of termination.
+
+7.2 Role-Based Access Control
+Implement role-based access control (RBAC) with:
+- Defined roles and responsibilities
+- Default "deny-all" setting
+- Documented authorization for each role
+
+REQUIREMENT 8: USER AUTHENTICATION
+
+8.1 Unique User IDs
+Assign unique ID to each person with computer access. Generic or shared accounts prohibited except for specific exceptions with daily monitoring.
+
+8.2 Password Requirements
+Passwords must:
+- Contain minimum 12 characters
+- Include uppercase, lowercase, numbers, and special characters
+- Be changed every 90 days
+- Not repeat last 4 passwords
+
+8.3 Multi-Factor Authentication
+MFA required for:
+- All remote access to CDE
+- All administrative access
+- All access to servers in CDE
+
+REQUIREMENT 9: PHYSICAL SECURITY
+
+9.1 Physical Access Controls
+Physical access to CDE must be restricted and monitored. Video surveillance required with 90-day retention minimum.
+
+9.2 Device Security
+Point-of-sale devices must be inspected for tampering monthly. Maintain inventory of all devices updated within 24 hours of changes.
+
+REQUIREMENT 10: LOGGING AND MONITORING
+
+10.1 Audit Trails
+Generate audit trails for all access to cardholder data. Logs must record:
+- User identification
+- Type of event
+- Date and time
+- Success or failure
+- Origination of event
+- Identity of affected data
+
+10.2 Log Retention
+All logs must be retained for minimum 12 months with 3 months immediately available for analysis.
+
+10.3 Daily Review
+Review logs daily for anomalies. Exceptions must be investigated within 24 hours.
+
+REQUIREMENT 11: SECURITY TESTING
+
+11.1 Vulnerability Scanning
+Conduct vulnerability scans:
+- Quarterly internal and external scans
+- After any significant change
+- Must achieve passing score from Approved Scanning Vendor (ASV)
+
+11.2 Penetration Testing
+Annual penetration testing required for network and application layers. Critical vulnerabilities must be remediated within 30 days.
+
+REQUIREMENT 12: SECURITY POLICIES
+
+12.1 Information Security Policy
+Maintain comprehensive security policy reviewed annually and distributed to all relevant personnel within 30 days of updates.
+
+12.2 Risk Assessment
+Conduct formal risk assessment annually identifying:
+- Critical assets
+- Threats and vulnerabilities
+- Risk evaluation and mitigation strategies
+
+12.3 Incident Response Plan
+Maintain incident response plan with:
+- 24/7 response capability
+- Defined escalation procedures
+- Evidence preservation requirements
+- Notification within 72 hours to card brands
+
+NON-COMPLIANCE PENALTIES
+
+Level 1 Merchants (>6M transactions/year):
+- First violation: $50,000 - $100,000 monthly
+- Continued non-compliance: Up to $500,000 monthly
+
+Level 2-4 Merchants:
+- First violation: $5,000 - $50,000 monthly
+- Data breach fines: $50 - $90 per compromised card

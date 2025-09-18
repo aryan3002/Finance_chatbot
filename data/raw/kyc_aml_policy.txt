@@ -1,0 +1,87 @@
+KNOW YOUR CUSTOMER (KYC) AND ANTI-MONEY LAUNDERING (AML) POLICY
+Effective Date: January 1, 2024
+Version: 2.0
+
+SECTION 1: CUSTOMER IDENTIFICATION PROGRAM (CIP)
+
+1.1 Identity Verification Requirements
+All financial institutions must verify the identity of any person seeking to open an account within a reasonable time. The institution shall obtain the following minimum information before opening an account:
+- Full legal name
+- Date of birth (for individuals)
+- Residential or business street address
+- Identification number (SSN for US persons, passport number for non-US persons)
+
+1.2 Documentary Verification
+Institutions must retain copies of identification documents for a period of five years after the account is closed. Acceptable documents include:
+- Valid government-issued photo ID (unexpired)
+- Passport with photograph
+- Driver's license with photograph
+- Military identification card
+
+1.3 Enhanced Due Diligence (EDD)
+For high-risk customers, institutions shall conduct enhanced due diligence within 30 days of account opening. This includes:
+- Verification of source of funds
+- Purpose of account
+- Expected transaction volume and frequency
+- Ultimate beneficial ownership for entities owning 25% or more
+
+SECTION 2: TRANSACTION MONITORING
+
+2.1 Ongoing Monitoring Requirements
+Financial institutions must implement risk-based transaction monitoring systems that detect suspicious patterns. Reviews must occur:
+- Daily for high-risk accounts
+- Weekly for medium-risk accounts
+- Monthly for low-risk accounts
+
+2.2 Red Flag Indicators
+The following activities require immediate investigation:
+- Structured transactions below $10,000 reporting threshold
+- Rapid movement of funds without clear business purpose
+- Transactions inconsistent with customer profile
+- Wire transfers to high-risk jurisdictions
+
+2.3 Suspicious Activity Reporting (SAR)
+Institutions must file a SAR within 30 calendar days of initial detection of suspicious activity. If no suspect is identified, the filing deadline extends to 60 days. Records of all SARs must be retained for five years from the filing date.
+
+SECTION 3: SANCTIONS SCREENING
+
+3.1 OFAC Compliance
+All customers and transactions must be screened against the Office of Foreign Assets Control (OFAC) Specially Designated Nationals (SDN) list. Screening must occur:
+- Before onboarding any new customer
+- Before processing any wire transfer
+- Daily for existing customer base
+
+3.2 Match Resolution
+Potential matches must be resolved within 24 hours. True matches require:
+- Immediate freezing of assets
+- Filing of blocking report within 10 business days
+- Prohibition of any further transactions
+
+SECTION 4: RECORD KEEPING
+
+4.1 Retention Requirements
+The following records must be maintained:
+- Customer identification records: 5 years after account closure
+- Transaction records over $10,000: 5 years from transaction date
+- SAR documentation: 5 years from filing date
+- Wire transfer records: 5 years from transfer date
+- Account statements: 5 years from statement date
+
+4.2 Audit Trail
+All compliance activities must maintain a complete audit trail showing:
+- Date and time of activity
+- Personnel involved
+- Actions taken
+- Supervisory review and approval
+
+SECTION 5: PENALTIES FOR NON-COMPLIANCE
+
+5.1 Regulatory Penalties
+Failure to comply with KYC/AML requirements may result in:
+- Civil monetary penalties up to $1 million per violation
+- Criminal penalties including imprisonment up to 10 years
+- Loss of banking charter or license
+- Cease and desist orders
+
+5.2 Individual Liability
+Compliance officers and senior management may be held personally liable for willful violations or gross negligence in oversight duties.

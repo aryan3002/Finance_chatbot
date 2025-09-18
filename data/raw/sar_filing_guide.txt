@@ -1,0 +1,150 @@
+SUSPICIOUS ACTIVITY REPORT (SAR) FILING REQUIREMENTS
+FinCEN Guidance for Financial Institutions
+
+PART 1: WHEN TO FILE A SAR
+
+Mandatory Filing Triggers:
+Financial institutions must file a SAR for:
+- Transactions aggregating $5,000 or more where suspect identified
+- Transactions aggregating $25,000 or more regardless of suspect identification
+- Any transaction involving potential money laundering
+- Any transaction with no apparent business purpose
+
+Timeline Requirements:
+- File within 30 calendar days of initial detection
+- If no suspect identified, deadline extends to 60 days
+- Continuing activity requires SAR every 90 days
+- Law enforcement request can delay filing up to 120 days
+
+PART 2: SUSPICIOUS ACTIVITY INDICATORS
+
+Transaction Patterns:
+- Deposits immediately followed by wire transfers
+- Multiple accounts with similar activity patterns
+- Structured transactions to avoid reporting thresholds
+- Round-dollar transactions with no apparent purpose
+- Sudden unexplained activity in dormant accounts
+
+Customer Behavior Red Flags:
+- Reluctance to provide identification
+- Inconsistent information across documents
+- Unusual concern about compliance reporting
+- Request to not file required reports
+- Attempt to bribe or coerce employees
+
+PART 3: SAR COMPLETION REQUIREMENTS
+
+Required Information:
+- Subject information (name, address, SSN/EIN, occupation)
+- Transaction details (dates, amounts, accounts, instruments)
+- Narrative description (minimum 750 characters)
+- Financial institution contact information
+
+Narrative Requirements:
+The narrative must clearly describe:
+- Who conducted the suspicious activity
+- What instruments or mechanisms were used
+- When the activity took place
+- Where the activity occurred
+- Why the activity is suspicious
+- How the activity was conducted
+
+PART 4: CONFIDENTIALITY REQUIREMENTS
+
+Prohibition on Disclosure:
+- Never inform subject of SAR filing
+- Disclosure prohibited except to law enforcement
+- Violation punishable by up to $250,000 fine and 5 years imprisonment
+
+Safe Harbor Protection:
+Financial institutions and employees have immunity from civil liability for all reports made in good faith.
+
+Internal Sharing:
+SAR information may be shared within organization only for:
+- Compliance purposes
+- Risk management
+- Legal review
+- Audit functions
+
+PART 5: SUPPORTING DOCUMENTATION
+
+Retention Requirements:
+Maintain for 5 years from filing date:
+- Copy of filed SAR
+- Original supporting documentation
+- Internal investigation records
+- Management decisions
+- Correspondence with law enforcement
+
+Documentation Standards:
+- Account statements for 6 months prior and 3 months after
+- Wire transfer records
+- Monetary instrument logs
+- Surveillance reports
+- Interview notes
+
+PART 6: QUALITY CONTROL
+
+Review Process:
+- Initial review within 24 hours of alert
+- Investigation completion within 10 business days
+- Management approval before filing
+- Quality assurance review quarterly
+
+Common Filing Errors:
+- Incomplete subject information (25% of rejections)
+- Insufficient narrative detail (20% of rejections)
+- Mathematical errors in amounts (15% of rejections)
+- Missing critical dates (10% of rejections)
+
+PART 7: CONTINUING ACTIVITY SARS
+
+When to File:
+File continuing activity SAR when:
+- Same subject continues suspicious activity
+- 90 days passed since last filing
+- Additional suspicious activity totals $50,000 or more
+
+Aggregation Rules:
+- Combine related transactions over 120-day period
+- Multiple subjects acting together treated as one filing
+- Different transaction types may be combined if related
+
+PART 8: LAW ENFORCEMENT REQUESTS
+
+314(a) Requests:
+- Must search records dating back 5 years
+- Response required within 14 days
+- Positive matches reported through FinCEN
+
+314(b) Information Sharing:
+- Voluntary sharing between financial institutions
+- Requires annual notice to FinCEN
+- Protected by safe harbor provisions
+
+PART 9: PENALTIES FOR NON-COMPLIANCE
+
+Civil Penalties:
+- Failure to file: Up to $250,000 per violation
+- Pattern of violations: Up to $1.5 million
+- Negligent violations: $500 per violation up to $100,000 annually
+
+Criminal Penalties:
+- Willful violation: Up to $250,000 and 5 years imprisonment
+- Violation while committing another crime: Up to $500,000 and 10 years
+- Disclosure of SAR: Up to $250,000 and 5 years
+
+PART 10: DEFENSIVE FILING
+
+Situations Warranting Defensive Filing:
+- Negative media about customer
+- Subpoena or law enforcement inquiry
+- Internal audit findings
+- Whistleblower allegations
+- Regulatory examination concerns
+
+Best Practices:
+- Document decision-making process
+- Include all available information
+- Err on side of filing when uncertain
+- Maintain consistent filing standards

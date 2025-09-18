@@ -1,0 +1,214 @@
+2025-09-16 18:24:08,596 - INFO - Starting regulatory document collection process...
+2025-09-16 18:24:08,597 - INFO - Processed local file: data/raw/gdpr_privacy_requirements.txt (5358 chars)
+2025-09-16 18:24:08,597 - INFO - Processed local file: data/raw/sar_filing_guide.txt (4670 chars)
+2025-09-16 18:24:08,598 - INFO - Processed local file: data/raw/pci_dss_requirements.txt (5586 chars)
+2025-09-16 18:24:08,598 - INFO - Processed local file: data/raw/kyc_aml_policy.txt (3661 chars)
+2025-09-16 18:24:08,598 - INFO - Processed 4 local files
+2025-09-16 18:24:08,598 - INFO - 
+Processing SEC_RULES...
+2025-09-16 18:24:08,598 - INFO - Scanning https://www.sec.gov/rules/final/
+2025-09-16 18:24:09,302 - INFO - Downloaded: https://www.edgarfiling.sec.gov/Welcome/EDGARLogin.htm
+2025-09-16 18:24:09,355 - INFO - Downloaded: https://www.onlineforms.edgarfiling.sec.gov/Welcome/EDGAROnlineFormsLogin.htm
+2025-09-16 18:24:09,473 - INFO - Scanning https://www.sec.gov/rules/proposed/
+2025-09-16 18:24:09,928 - INFO - Downloaded: https://www.sec.gov/index.htm
+2025-09-16 18:24:09,969 - INFO - Downloaded: https://www.sec.gov/index.htm
+2025-09-16 18:24:09,984 - INFO - Downloaded: https://www.sec.gov/index.htm
+2025-09-16 18:24:09,984 - INFO - Scanning https://www.sec.gov/rules/interp/
+2025-09-16 18:24:10,258 - INFO - Scanning https://www.sec.gov/rules/concept/
+2025-09-16 18:24:10,463 - INFO - Downloaded 5 documents from SEC_RULES
+2025-09-16 18:24:10,464 - INFO - 
+Processing FINRA_RULES...
+2025-09-16 18:24:10,464 - INFO - Scanning https://www.finra.org/rules-guidance/rulebooks/finra-rules/
+2025-09-16 18:24:12,194 - INFO - Scanning https://www.finra.org/rules-guidance/notices/
+2025-09-16 18:24:12,499 - INFO - Scanning https://www.finra.org/rules-guidance/guidance/
+2025-09-16 18:24:13,156 - INFO - Downloaded: https://www.finra.org/sites/default/files/2025-06/neutral-corner-volume-2-2025-0627.pdf
+2025-09-16 18:24:13,355 - INFO - Downloaded: https://www.finra.org/sites/default/files/2025-03/neutral-corner-volume-1-2025-0331.pdf
+2025-09-16 18:24:13,615 - INFO - Downloaded: https://www.finra.org/sites/default/files/2025-04/Quick_Reference_Guide_RSL_Indicators_and_Dates_in_FG_Profiles_and_Reports.pdf
+2025-09-16 18:24:13,615 - INFO - Downloaded 3 documents from FINRA_RULES
+2025-09-16 18:24:13,615 - INFO - 
+Processing FEDERAL_RESERVE...
+2025-09-16 18:24:13,616 - INFO - Scanning https://www.federalreserve.gov/supervisionreg/letters/
+2025-09-16 18:24:14,180 - INFO - Downloaded: https://www.federalreserve.gov/default.htm
+2025-09-16 18:24:14,213 - INFO - Downloaded: https://www.federalreserve.gov/default.htm
+2025-09-16 18:24:14,218 - INFO - Downloaded: https://www.federalreserve.gov/feeds/feeds.htm
+2025-09-16 18:24:14,424 - INFO - Downloaded: https://www.federalreserve.gov/subscribe.htm
+2025-09-16 18:24:14,796 - INFO - Downloaded: https://www.federalreserve.gov/publications.htm
+2025-09-16 18:24:14,826 - INFO - Downloaded: https://www.federalreserve.gov/newsevents/calendar.htm
+2025-09-16 18:24:14,847 - INFO - Downloaded: https://www.federalreserve.gov/recentpostings.htm
+2025-09-16 18:24:15,079 - INFO - Downloaded: https://www.federalreserve.gov/sitemap.htm
+2025-09-16 18:24:15,079 - INFO - Downloaded: https://www.federalreserve.gov/azindex.htm
+2025-09-16 18:24:15,805 - INFO - Downloaded: https://www.federalreserve.gov/videos.htm
+2025-09-16 18:24:15,833 - INFO - Downloaded: https://www.federalreserve.gov/careers.htm
+2025-09-16 18:24:15,861 - INFO - Downloaded: https://www.federalreserve.gov/faqs.htm
+2025-09-16 18:24:15,969 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/contact-us-topics.htm
+2025-09-16 18:24:16,036 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed.htm
+2025-09-16 18:24:16,808 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/bios/board/default.htm
+2025-09-16 18:24:16,835 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm
+2025-09-16 18:24:16,845 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/the-fed-explained.htm
+2025-09-16 18:24:17,036 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/advisorydefault.htm
+2025-09-16 18:24:17,066 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/federal-reserve-system.htm
+2025-09-16 18:24:17,783 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/fract.htm
+2025-09-16 18:24:17,818 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/currency.htm
+2025-09-16 18:24:17,818 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/boardmeetings/meetingdates.htm
+2025-09-16 18:24:18,045 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/boardvotes.htm
+2025-09-16 18:24:18,123 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/diversityinclusion.htm
+2025-09-16 18:24:18,773 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/procurement/about.htm
+2025-09-16 18:24:18,802 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/k8.htm
+2025-09-16 18:24:18,839 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/ethics-values.htm
+2025-09-16 18:24:18,965 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/educational-tools/default.htm
+2025-09-16 18:24:19,103 - INFO - Downloaded: https://www.federalreserve.gov/foia/about_foia.htm
+2025-09-16 18:24:19,801 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/fed-financial-statements.htm
+2025-09-16 18:24:19,830 - INFO - Downloaded: https://www.federalreserve.gov/newsevents.htm
+2025-09-16 18:24:19,926 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/innovation.htm
+2025-09-16 18:24:19,948 - INFO - Downloaded: https://www.federalreserve.gov/newsevents/pressreleases.htm
+2025-09-16 18:24:19,975 - INFO - Downloaded: https://www.federalreserve.gov/newsevents/speeches.htm
+2025-09-16 18:24:20,893 - INFO - Downloaded: https://www.federalreserve.gov/photogallery.htm
+2025-09-16 18:24:20,911 - INFO - Downloaded: https://www.federalreserve.gov/conferences.htm
+2025-09-16 18:24:21,009 - INFO - Downloaded: https://www.federalreserve.gov/newsevents/testimony.htm
+2025-09-16 18:24:21,067 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy.htm
+2025-09-16 18:24:21,219 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/fomc.htm
+2025-09-16 18:24:21,829 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/fomc_projectionsfaqs.htm
+2025-09-16 18:24:21,889 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/fomc_historical.htm
+2025-09-16 18:24:21,889 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+2025-09-16 18:24:21,983 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/monetary-policy-principles-and-practice.htm
+2025-09-16 18:24:22,037 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm
+2025-09-16 18:24:22,812 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/policytools.htm
+2025-09-16 18:24:23,210 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/mpr_default.htm
+2025-09-16 18:24:23,336 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm
+2025-09-16 18:24:23,408 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/review-of-monetary-policy-strategy-tools-and-communications.htm
+2025-09-16 18:24:23,617 - INFO - Downloaded: https://www.federalreserve.gov/monetarypolicy/balance-sheet-developments-report.htm
+2025-09-16 18:24:23,826 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg.htm
+2025-09-16 18:24:23,991 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/foreign-banking-organizations.htm
+2025-09-16 18:24:24,030 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/large-financial-institutions.htm
+2025-09-16 18:24:24,061 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/community-and-regional-financial-institutions.htm
+2025-09-16 18:24:24,400 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/financial-market-utility-supervision.htm
+2025-09-16 18:24:24,856 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/consumer-compliance.htm
+2025-09-16 18:24:24,907 - INFO - Downloaded: https://www.federalreserve.gov/publications/supervision-and-regulation-report.htm
+2025-09-16 18:24:25,104 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/topics/topics.htm
+2025-09-16 18:24:25,128 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/srletters/srletters.htm
+2025-09-16 18:24:25,170 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/reporting-forms-whats-new.htm
+2025-09-16 18:24:25,831 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/board-and-reserve-bank-actions.htm
+2025-09-16 18:24:25,856 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/legal-developments.htm
+2025-09-16 18:24:25,879 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/application-process.htm
+2025-09-16 18:24:26,016 - INFO - Downloaded: https://www.federalreserve.gov/publications/supmanual.htm
+2025-09-16 18:24:26,156 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/reglisting.htm
+2025-09-16 18:24:26,871 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/training-and-assistance-landing.htm
+2025-09-16 18:24:26,898 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/volcker-rule.htm
+2025-09-16 18:24:27,050 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/basel/basel-default.htm
+2025-09-16 18:24:27,074 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/isb-default.htm
+2025-09-16 18:24:27,205 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/fhc.htm
+2025-09-16 18:24:27,873 - INFO - Downloaded: https://www.federalreserve.gov/financial-stability.htm
+2025-09-16 18:24:27,923 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/suds.htm
+2025-09-16 18:24:28,190 - INFO - Downloaded: https://www.federalreserve.gov/financial-stability/types-of-financial-system-vulnerabilities-and-risks.htm
+2025-09-16 18:24:28,214 - INFO - Downloaded: https://www.federalreserve.gov/financial-stability/what-is-financial-stability.htm
+2025-09-16 18:24:28,309 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/minority-depository-institutions.htm
+2025-09-16 18:24:28,879 - INFO - Downloaded: https://www.federalreserve.gov/financial-stability/monitoring-risk-across-the-financial-system.htm
+2025-09-16 18:24:28,903 - INFO - Downloaded: https://www.federalreserve.gov/financial-stability/responding-to-financial-system-emergencies.htm
+2025-09-16 18:24:29,006 - INFO - Downloaded: https://www.federalreserve.gov/financial-stability/financial-stability-and-stress-testing.htm
+2025-09-16 18:24:29,068 - INFO - Downloaded: https://www.federalreserve.gov/financial-stability/cooperation-on-financial-stability.htm
+2025-09-16 18:24:29,084 - INFO - Downloaded: https://www.federalreserve.gov/publications/financial-stability-report.htm
+2025-09-16 18:24:29,850 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems.htm
+2025-09-16 18:24:30,047 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/regcc-about.htm
+2025-09-16 18:24:30,071 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/reghh-about.htm
+2025-09-16 18:24:30,181 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/regii-about.htm
+2025-09-16 18:24:30,301 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/other-regulations.htm
+2025-09-16 18:24:30,879 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/psr_about.htm
+2025-09-16 18:24:30,904 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/oo_about.htm
+2025-09-16 18:24:31,022 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/pfs_about.htm
+2025-09-16 18:24:31,214 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/telecomm.htm
+2025-09-16 18:24:31,291 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/fedach_about.htm
+2025-09-16 18:24:31,857 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/coin_about.htm
+2025-09-16 18:24:31,880 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/psr_data.htm
+2025-09-16 18:24:31,898 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/check_about.htm
+2025-09-16 18:24:32,047 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/fednow_about.htm
+2025-09-16 18:24:32,120 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm
+2025-09-16 18:24:32,914 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/natl_about.htm
+2025-09-16 18:24:32,915 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/fisagy_about.htm
+2025-09-16 18:24:32,963 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/fedsecs_about.htm
+2025-09-16 18:24:33,083 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/designated_fmu_about.htm
+2025-09-16 18:24:33,108 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/over_about.htm
+2025-09-16 18:24:33,902 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/payres_about.htm
+2025-09-16 18:24:33,915 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/fr-payments-study.htm
+2025-09-16 18:24:34,042 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/int_standards.htm
+2025-09-16 18:24:34,194 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/pspa_committee.htm
+2025-09-16 18:24:34,240 - INFO - Downloaded: https://www.federalreserve.gov/paymentsystems/forums.htm
+2025-09-16 18:24:34,874 - INFO - Downloaded: https://www.federalreserve.gov/econres.htm
+2025-09-16 18:24:35,003 - INFO - Downloaded: https://www.federalreserve.gov/econres/theeconomists.htm
+2025-09-16 18:24:35,216 - INFO - Downloaded: https://www.federalreserve.gov/econres/ifdp/index.htm
+2025-09-16 18:24:35,661 - INFO - Downloaded: https://www.federalreserve.gov/econres/notes/feds-notes/default.htm
+2025-09-16 18:24:35,896 - INFO - Downloaded: https://www.federalreserve.gov/econres/feds/index.htm
+2025-09-16 18:24:35,914 - INFO - Downloaded: https://www.federalreserve.gov/econres/us-models-about.htm
+2025-09-16 18:24:35,933 - INFO - Downloaded: https://www.federalreserve.gov/econres/economic-research-data.htm
+2025-09-16 18:24:36,105 - INFO - Downloaded: https://www.federalreserve.gov/data.htm
+2025-09-16 18:24:36,154 - INFO - Downloaded: https://www.federalreserve.gov/econres/edo-models-about.htm
+2025-09-16 18:24:36,218 - INFO - Downloaded: https://www.federalreserve.gov/econres/scfindex.htm
+2025-09-16 18:24:37,112 - INFO - Downloaded: https://www.federalreserve.gov/releases/h3/current/default.htm
+2025-09-16 18:24:37,141 - INFO - Downloaded: https://www.federalreserve.gov/releases/h8/current/default.htm
+2025-09-16 18:24:37,186 - INFO - Downloaded: https://www.federalreserve.gov/data/assetliab/current.htm
+2025-09-16 18:24:37,290 - INFO - Downloaded: https://www.federalreserve.gov/data/sloos.htm
+2025-09-16 18:24:37,337 - INFO - Downloaded: https://www.federalreserve.gov/data/sfos/sfos.htm
+2025-09-16 18:24:37,940 - INFO - Downloaded: https://www.federalreserve.gov/data/govsecure/current.htm
+2025-09-16 18:24:37,940 - INFO - Downloaded: https://www.federalreserve.gov/releases/iba/default.htm
+2025-09-16 18:24:37,975 - INFO - Downloaded: https://www.federalreserve.gov/releases/g20/current/g20.htm
+2025-09-16 18:24:38,120 - INFO - Downloaded: https://www.federalreserve.gov/data/corpsecure/current.htm
+2025-09-16 18:24:38,239 - INFO - Downloaded: https://www.federalreserve.gov/data/scoos.htm
+2025-09-16 18:24:38,944 - INFO - Downloaded: https://www.federalreserve.gov/data/intlsumm/current.htm
+2025-09-16 18:24:38,984 - INFO - Downloaded: https://www.federalreserve.gov/data/statbanksus/current.htm
+2025-09-16 18:24:39,015 - INFO - Downloaded: https://www.federalreserve.gov/data/secholdtrans/current.htm
+2025-09-16 18:24:39,201 - INFO - Downloaded: https://www.federalreserve.gov/releases/g19/current/default.htm
+2025-09-16 18:24:39,225 - INFO - Downloaded: https://www.federalreserve.gov/releases/z1/default.htm
+2025-09-16 18:24:39,954 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/shed.htm
+2025-09-16 18:24:40,114 - INFO - Downloaded: https://www.federalreserve.gov/releases/housedebt/default.htm
+2025-09-16 18:24:40,231 - INFO - Downloaded: https://www.federalreserve.gov/releases/g17/current/default.htm
+2025-09-16 18:24:40,290 - INFO - Downloaded: https://www.federalreserve.gov/data/mortoutstand/current.htm
+2025-09-16 18:24:40,786 - INFO - Downloaded: https://www.federalreserve.gov/data/mdrm.htm
+2025-09-16 18:24:40,934 - INFO - Downloaded: https://www.federalreserve.gov/releases/h6/current/default.htm
+2025-09-16 18:24:40,957 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities.htm
+2025-09-16 18:24:41,101 - INFO - Downloaded: https://www.federalreserve.gov/data/yield-curve-models.htm
+2025-09-16 18:24:41,129 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/cra_about.htm
+2025-09-16 18:24:41,512 - INFO - Downloaded: https://www.federalreserve.gov/supervisionreg/caletters/caletters.htm
+2025-09-16 18:24:41,909 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/small-business-and-entrepreneurship.htm
+2025-09-16 18:24:41,951 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/independent-foreclosure-review.htm
+2025-09-16 18:24:42,079 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/workforce.htm
+2025-09-16 18:24:42,115 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/cdf.htm
+2025-09-16 18:24:42,132 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/neighborhood-revitalization.htm
+2025-09-16 18:24:42,931 - INFO - Downloaded: https://www.federalreserve.gov/aboutthefed/cac.htm
+2025-09-16 18:24:42,952 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/rural-community-economic-development.htm
+2025-09-16 18:24:42,973 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/community-development-publications.htm
+2025-09-16 18:24:43,186 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/foreclosure.htm
+2025-09-16 18:24:43,293 - INFO - Downloaded: https://www.federalreserve.gov/consumerscommunities/comm-dev-system-map.htm
+2025-09-16 18:24:43,898 - INFO - Downloaded: https://www.federalreserve.gov/publications/annual-report.htm
+2025-09-16 18:24:44,011 - INFO - Downloaded: https://www.federalreserve.gov/eeo.htm
+2025-09-16 18:24:44,027 - INFO - Downloaded: https://www.federalreserve.gov/regreform/audit.htm
+2025-09-16 18:24:44,042 - INFO - Downloaded: https://www.federalreserve.gov/espanol.htm
+2025-09-16 18:24:44,334 - INFO - Downloaded: https://www.federalreserve.gov/website-linking-policies.htm
+2025-09-16 18:24:44,928 - INFO - Downloaded: https://www.federalreserve.gov/privacy.htm
+2025-09-16 18:24:44,948 - INFO - Downloaded: https://www.federalreserve.gov/accessibility.htm
+2025-09-16 18:24:44,987 - INFO - Downloaded: https://www.federalreserve.gov/open/open.htm
+2025-09-16 18:24:44,987 - INFO - Scanning https://www.federalreserve.gov/regulations/
+2025-09-16 18:24:45,124 - INFO - Scanning https://www.federalreserve.gov/guidance/
+2025-09-16 18:24:45,347 - INFO - Downloaded 157 documents from FEDERAL_RESERVE
+2025-09-16 18:24:45,348 - INFO - 
+Processing CFPB...
+2025-09-16 18:24:45,348 - INFO - Scanning https://www.consumerfinance.gov/rules-policy/final-rules/
+2025-09-16 18:24:45,891 - INFO - Scanning https://www.consumerfinance.gov/compliance/compliance-guidance/
+2025-09-16 18:24:46,834 - INFO - Scanning https://www.consumerfinance.gov/policy-compliance/guidance/
+2025-09-16 18:24:46,948 - INFO - Downloaded 0 documents from CFPB
+2025-09-16 18:24:46,948 - INFO - 
+Processing FINCEN...
+2025-09-16 18:24:46,948 - INFO - Scanning https://www.fincen.gov/resources/statutes-regulations/
+2025-09-16 18:25:05,908 - INFO - Downloaded: http://www.gpo.gov/fdsys/pkg/USCODE-2010-title31/html/USCODE-2010-title31-subtitleI-chap3-subchapI-sec310.htm
+2025-09-16 18:25:12,518 - INFO - Downloaded: https://www.govinfo.gov/content/pkg/PLAW-116publ283/pdf/PLAW-116publ283.pdf
+2025-09-16 18:25:14,512 - INFO - Downloaded: https://www.fincen.gov/system/files/shared/20210615%20AMLA%20FinCEN%20One%20Pager_FINAL.pdf
+2025-09-16 18:25:14,512 - INFO - Scanning https://www.fincen.gov/resources/guidance/
+2025-09-16 18:25:25,010 - INFO - Scanning https://www.fincen.gov/resources/advisories/
+2025-09-16 18:25:34,537 - INFO - Downloaded 3 documents from FINCEN
+2025-09-16 18:25:34,537 - INFO - Added supplementary content: KYC Guidelines
+2025-09-16 18:25:34,538 - INFO - Added supplementary content: AML Best Practices
+2025-09-16 18:25:34,578 - INFO - 
+Saved 174 documents to data/processed/ingested.jsonl
+2025-09-16 18:25:34,579 - INFO - 
+Document source summary:
+2025-09-16 18:25:34,579 - INFO -   local: 4 documents
+2025-09-16 18:25:34,579 - INFO -   scraped: 168 documents
+2025-09-16 18:25:34,579 - INFO -   supplementary: 2 documents
