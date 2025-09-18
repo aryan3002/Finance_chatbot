@@ -14,3 +14,4 @@ env/
 # Local artifacts
 *.db
 uploads/
+.env
